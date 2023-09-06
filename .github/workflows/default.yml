@@ -1,0 +1,17 @@
+---
+name: Default
+on: [push]
+
+jobs:
+  main:
+    name: CI
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v4
+        with:
+          go-version-file: go.mod
+      - run: go mod download
+      - run: '[[ -z $(go fmt ./...) ]]'
+      - run: go test -v ./...
+      - run: go vet ./...
