@@ -19,7 +19,7 @@ func main() {
 }
 ```
 
-## loggers
+### loggers
 
 I use a [zerolog](https://github.com/rs/zerolog)-based logger for my
 applications and a [pterm](https://github.com/pterm/pterm)-based logger for
