@@ -1,5 +1,8 @@
 # gooseloggers
 
+[![Default](https://github.com/mfinelli/go-gooseloggers/actions/workflows/default.yml/badge.svg)](https://github.com/mfinelli/go-gooseloggers/actions/workflows/default.yml)
+[![Go Reference](https://pkg.go.dev/badge/go.finelli.dev/gooseloggers.svg)](https://pkg.go.dev/go.finelli.dev/gooseloggers)
+
 A few custom [goose](https://github.com/pressly/goose) loggers that I use in
 some of my other projects.
 
