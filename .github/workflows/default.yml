@@ -15,3 +15,6 @@ jobs:
       - run: '[[ -z $(go fmt ./...) ]]'
       - run: go test -v ./...
       - run: go vet ./...
+      - uses: dominikh/staticcheck-action@v1
+        with:
+          install-go: false
