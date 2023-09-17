@@ -1,6 +1,6 @@
 module go.finelli.dev/gooseloggers
 
-go 1.21.0
+go 1.21
 
 require (
 	github.com/pressly/goose/v3 v3.15.0
