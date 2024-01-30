@@ -30,20 +30,8 @@ func GoosePtermLogger() goose.Logger {
 // custom goose logger.
 type goosePtermLogger struct{}
 
-func (*goosePtermLogger) Fatal(v ...interface{}) {
-	pterm.Fatal.WithFatal(true).Println(v...)
-}
-
 func (*goosePtermLogger) Fatalf(format string, v ...interface{}) {
 	pterm.Fatal.WithFatal(true).Printf(format, v...)
-}
-
-func (*goosePtermLogger) Print(v ...interface{}) {
-	pterm.Info.Print(v...)
-}
-
-func (*goosePtermLogger) Println(v ...interface{}) {
-	pterm.Info.Println(v...)
 }
 
 func (*goosePtermLogger) Printf(format string, v ...interface{}) {

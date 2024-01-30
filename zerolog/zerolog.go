@@ -34,20 +34,8 @@ type gooseZerologLogger struct {
 	l *zerolog.Logger
 }
 
-func (l *gooseZerologLogger) Fatal(v ...interface{}) {
-	l.l.Fatal().Msg(fmt.Sprintln(v...))
-}
-
 func (l *gooseZerologLogger) Fatalf(format string, v ...interface{}) {
 	l.l.Fatal().Msg(fmt.Sprintf(format, v...))
-}
-
-func (l *gooseZerologLogger) Print(v ...interface{}) {
-	l.l.Info().Msg(fmt.Sprint(v...))
-}
-
-func (l *gooseZerologLogger) Println(v ...interface{}) {
-	l.l.Info().Msg(fmt.Sprintln(v...))
 }
 
 func (l *gooseZerologLogger) Printf(format string, v ...interface{}) {
