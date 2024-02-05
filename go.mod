@@ -4,7 +4,7 @@ go 1.21.6
 
 require (
 	github.com/pressly/goose/v3 v3.17.0
-	github.com/pterm/pterm v0.12.76
+	github.com/pterm/pterm v0.12.78
 	github.com/rs/zerolog v1.31.0
 )
 
