@@ -3,7 +3,7 @@ module go.finelli.dev/gooseloggers
 go 1.21.6
 
 require (
-	github.com/pressly/goose/v3 v3.17.0
+	github.com/pressly/goose/v3 v3.19.2
 	github.com/pterm/pterm v0.12.76
 	github.com/rs/zerolog v1.31.0
 )
@@ -18,6 +18,7 @@ require (
 	github.com/mattn/go-colorable v0.1.13 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
 	github.com/mattn/go-runewidth v0.0.15 // indirect
+	github.com/mfridman/interpolate v0.0.2 // indirect
 	github.com/rivo/uniseg v0.4.6 // indirect
 	github.com/sethvargo/go-retry v0.2.4 // indirect
 	github.com/xo/terminfo v0.0.0-20220910002029-abceb7e1c41e // indirect
