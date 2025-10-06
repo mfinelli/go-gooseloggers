@@ -3,7 +3,7 @@ module go.finelli.dev/gooseloggers
 go 1.25.1
 
 require (
-	github.com/pressly/goose/v3 v3.25.0
+	github.com/pressly/goose/v3 v3.26.0
 	github.com/pterm/pterm v0.12.81
 	github.com/rs/zerolog v1.34.0
 )
